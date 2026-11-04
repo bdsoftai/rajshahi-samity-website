@@ -1,4 +1,8 @@
-import { educationCards } from '@/lib/data';
+// আগের লাইনটি মুছে ফেলুন:
+// import { educationCards } from '@/lib/data';
+
+// নতুন লাইনটি দিন:
+import { educationCards } from '@/lib/educationData'; 
 import { notFound } from 'next/navigation';
 import EducationDetailContent from './EducationDetailContent';
 

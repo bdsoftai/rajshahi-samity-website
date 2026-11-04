@@ -105,6 +105,9 @@ export const districts = {
   },
 };
 
+// ============================================
+// JOBS DATA (12 items)
+// ============================================
 export const jobs = [
     {
         id: 'j1', typeBn: 'আইন', typeEn: 'Law',
@@ -192,86 +195,8 @@ export const jobs = [
     },
 ];
 
-// Education Data
-export const educationCards = [
-    {
-        id: 'e1', tagBn: 'শিক্ষা', tagEn: 'Education',
-        titleBn: 'শিক্ষানগরী রাজশাহী ও রাজশাহী বিশ্ববিদ্যালয়', titleEn: 'Rajshahi University & Education City',
-        descBn: 'উচ্চশিক্ষায় রাজশাহীর অবদান, ভর্তি-প্রস্তুতি ও স্কলারশিপ গাইড।',
-        descEn: 'Rajshahi\'s contribution to higher education, admission prep, and scholarship guides.',
-        image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e2', tagBn: 'স্বাস্থ্য', tagEn: 'Health',
-        titleBn: 'গ্রামীণ স্বাস্থ্যসেবা উন্নয়ন', titleEn: 'Rural Healthcare Development',
-        descBn: 'স্বাস্থ্য ক্যাম্প, সচেতনতা ও বিনামূল্যে পরামর্শ কর্মসূচির প্রস্তাব।',
-        descEn: 'Proposals for health camps, awareness, and free consultation programs.',
-        image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e3', tagBn: 'উন্নয়ন', tagEn: 'Development',
-        titleBn: 'কীভাবে এগিয়ে যাবে রাজশাহী?', titleEn: 'How will Rajshahi move forward?',
-        descBn: 'সদস্যদের মতামত ও উন্নয়ন পরিকল্পনা নিয়ে আর্টিকেল সিরিজ।',
-        descEn: 'Article series on members\' opinions and development plans.',
-        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e4', tagBn: 'শিক্ষা', tagEn: 'Education',
-        titleBn: 'বৃত্তি ও স্কলারশিপ সুযোগ', titleEn: 'Scholarship Opportunities',
-        descBn: 'দেশি-বিদেশি বিভিন্ন বৃত্তির সর্বশেষ তথ্য ও আবেদন গাইড।',
-        descEn: 'Latest info and application guides for domestic and international scholarships.',
-        image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e5', tagBn: 'স্বাস্থ্য', tagEn: 'Health',
-        titleBn: 'বিশেষজ্ঞ ডাক্তার প্যানেল', titleEn: 'Expert Doctor Panel',
-        descBn: 'সদস্যদের জন্য বিশেষজ্ঞ ডাক্তারদের নিয়ে অনলাইন কনসালটেশন।',
-        descEn: 'Online consultation with expert doctors for members.',
-        image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e6', tagBn: 'উন্নয়ন', tagEn: 'Development',
-        titleBn: 'ডিজিটাল শিক্ষা ব্যবস্থা', titleEn: 'Digital Education System',
-        descBn: 'প্রযুক্তিনির্ভর শিক্ষা ও অনলাইন লার্নিং প্ল্যাটফর্মের পরিকল্পনা।',
-        descEn: 'Plans for technology-driven education and online learning platforms.',
-        image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e7', tagBn: 'চিকিৎসা', tagEn: 'Medical',
-        titleBn: 'রাজশাহী মেডিকেল কলেজ ও হাসপাতাল', titleEn: 'Rajshahi Medical College & Hospital',
-        descBn: 'উত্তরবঙ্গের সর্ববৃহৎ চিকিৎসা প্রতিষ্ঠান। মেডিকেল শিক্ষা ও উন্নত স্বাস্থ্যসেবার কেন্দ্র।',
-        descEn: 'The largest healthcare institution in North Bengal. A center for medical education and advanced healthcare.',
-        image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e8', tagBn: 'স্বাস্থ্য', tagEn: 'Health',
-        titleBn: 'জেলা হাসপাতাল ও স্বাস্থ্য কমপ্লেক্স', titleEn: 'District Hospitals & Health Complexes',
-        descBn: 'রাজশাহী, নাটোর, নওগাঁ ও চাঁপাইনবাবগঞ্জ জেলা হাসপাতালের চিকিৎসা সেবার মান উন্নয়ন।',
-        descEn: 'Improving healthcare quality at Rajshahi, Natore, Naogaon, and Chapainawabganj district hospitals.',
-        image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e9', tagBn: 'শিক্ষা', tagEn: 'Education',
-        titleBn: 'স্থাপত্য ও প্রকৌশল শিক্ষা', titleEn: 'Architecture & Engineering Education',
-        descBn: 'রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (RUET) এবং স্থাপত্য বিভাগের অবদান।',
-        descEn: 'Contributions of Rajshahi University of Engineering & Technology (RUET) and architecture departments.',
-        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e10', tagBn: 'উন্নয়ন', tagEn: 'Development',
-        titleBn: 'শিক্ষা ও স্বাস্থ্যে ডিজিটাল উদ্ভাবন', titleEn: 'Digital Innovation in Education & Health',
-        descBn: 'টেলিমেডিসিন, ই-লার্নিং এবং আধুনিক প্রযুক্তি ব্যবহার করে শিক্ষা ও স্বাস্থ্যসেবা সহজ করা।',
-        descEn: 'Using telemedicine, e-learning, and modern tech to make education and healthcare accessible.',
-        image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=600&auto=format&fit=crop'
-    },
-    {
-        id: 'e11', tagBn: 'শিক্ষা', tagEn: 'Education',
-        titleBn: 'বিশিষ্ট স্কুল ও কলেজ সমূহ', titleEn: 'Prominent Schools & Colleges',
-        descBn: 'রাজশাহী কলেজিয়েট স্কুল, নিউ গভর্নমেন্ট ডিগ্রি কলেজ এবং অন্যান্য ঐতিহ্যবাহী শিক্ষাপ্রতিষ্ঠান।',
-        descEn: 'Rajshahi Collegiate School, New Government Degree College, and other heritage educational institutions.',
-        image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=600&auto=format&fit=crop'
-    },
-];
+
+
 // Barind Data
 export const barindCards = [
     { icon: '🌵', title: 'সমস্যা', desc: 'ভূগর্ভস্থ পানির স্তর নেমে যাওয়া, খরা, মরুকরণের ঝুঁকি ও কৃষিতে সেচ-ব্যয় বৃদ্ধি।' },
